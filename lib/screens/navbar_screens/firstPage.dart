@@ -28,7 +28,7 @@ class _FirstPageState extends State<FirstPage>
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Kombinasi NavBar dan Tabbar"),
+        title: Text("Kombinasi NavBar dan Tabbar`"),
         bottom: TabBar(
           controller: controller,
           tabs: <Widget>[
