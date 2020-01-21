@@ -9,6 +9,7 @@ class AddNewItem extends StatefulWidget {
 }
 
 class _AddNewItemState extends State<AddNewItem> {
+  // controller untuk menghandle textinputfield
   final titleController = TextEditingController();
   final hargaController = TextEditingController();
   final qtyController = TextEditingController();
