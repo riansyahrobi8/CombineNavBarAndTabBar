@@ -5,12 +5,15 @@ class Dashboard extends StatelessWidget {
   final List<Cart> _listCart;
   Dashboard(this._listCart);
 
+  // getter untk mendapatkan total item
   int get totalItem {
+    // penghitungan math
     return _listCart.fold(0, (sum, item) {
       return sum += item.qty;
     });
   }
 
+  // getter untuk mendapatkan total harga
   double get totalPrice {
     return _listCart.fold(0, (sum, item) {
       return sum += item.harga;

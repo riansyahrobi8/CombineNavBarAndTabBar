@@ -6,6 +6,7 @@ class Cart {
   final double harga;
   final int qty;
 
+  // constructor dimana secara default class ini akan meminta data
   Cart(
       {@required this.id,
       @required this.title,

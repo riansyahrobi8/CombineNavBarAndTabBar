@@ -11,8 +11,8 @@ class SecondPage extends StatefulWidget {
 
 class _SecondPageState extends State<SecondPage> {
   final List<Cart> _carts = [
-    Cart(id: "RD1", title: "Shampo Sunsilk", harga: 20000, qty: 3),
-    Cart(id: "RD2", title: "Sabun Mandi", harga: 15000, qty: 2)
+    // Cart(id: "RD1", title: "Shampo Sunsilk", harga: 20000, qty: 3),
+    // Cart(id: "RD2", title: "Sabun Mandi", harga: 15000, qty: 2)
   ];
 
   void _openModal(BuildContext context) {

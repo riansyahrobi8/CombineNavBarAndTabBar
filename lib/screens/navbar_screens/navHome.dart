@@ -1,9 +1,6 @@
-import 'package:design/screens/home.dart';
 import 'package:design/screens/navbar_screens/firstPage.dart';
 import 'package:design/screens/navbar_screens/secondPage.dart';
 import 'package:design/screens/navbar_screens/thirdPage.dart';
-import 'package:design/screens/news.dart';
-import 'package:design/screens/popular.dart';
 import 'package:flutter/material.dart';
 
 class NavBottomScreen extends StatefulWidget {

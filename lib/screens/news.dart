@@ -15,10 +15,12 @@ class _NewsState extends State<News> {
   Future<String> getData() async {
     var res = await http
         .get(Uri.encodeFull(url), headers: {'accept': 'application/json'});
-    setState(() {
-      var content = json.decode(res.body);
-      data = content['hasil'];
-    });
+    if (this.mounted) {
+      setState(() {
+        var content = json.decode(res.body);
+        data = content['hasil'];
+      });
+    }
     return 'success';
   }
 
@@ -26,6 +28,13 @@ class _NewsState extends State<News> {
   void initState() {
     super.initState();
     this.getData();
+  }
+
+  @override
+  void setState(fn) {
+    if (mounted) {
+      super.setState(fn);
+    }
   }
 
   @override
