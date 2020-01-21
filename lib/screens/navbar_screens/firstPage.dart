@@ -41,7 +41,7 @@ class _FirstPageState extends State<FirstPage>
       ),
       body: TabBarView(
         controller: controller,
-        children: <Widget>[Popular(), Home(), News()],
+        children: <Widget>[Home(), News(), Popular()],
       ),
     );
   }

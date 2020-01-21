@@ -16,16 +16,18 @@ class _PopularState extends State<Popular> with Validations {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.all(24.0),
-      child: Container(
-        child: Form(
-          key: formKey,
-          child: Column(
-            children: <Widget>[
-              nameField(),
-              emailField(),
-              passwordField(),
-              registerButton()
-            ],
+      child: SingleChildScrollView(
+        child: Container(
+          child: Form(
+            key: formKey,
+            child: Column(
+              children: <Widget>[
+                nameField(),
+                emailField(),
+                passwordField(),
+                registerButton()
+              ],
+            ),
           ),
         ),
       ),

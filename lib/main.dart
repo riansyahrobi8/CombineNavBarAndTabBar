@@ -49,6 +49,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: NavBottomScreen(),
+      theme: ThemeData(
+          primaryColor: Colors.amber,
+          accentColor: Colors.purpleAccent,
+          textTheme: ThemeData.light().textTheme.copyWith(
+              title: TextStyle(fontSize: 15.0, fontWeight: FontWeight.bold))),
     );
   }
 }
