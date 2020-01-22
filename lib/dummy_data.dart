@@ -47,8 +47,7 @@ const PLACES_DUMMY_DATA = const [
       category: 'P1',
       des:
           "Cillum ullamco quis laborum veniam enim laborum proident in sunt sint sunt exercitation quis.",
-      image:
-          'https://www.alorinatours.co.id/wp-content/uploads/2018/07/Pulau-Liukang.jpg',
+      image: 'https://ammatoa.com/wp-content/uploads/2016/09/kajang.jpg',
       author: "Nuge",
       price: 50000),
   Places(
@@ -64,7 +63,7 @@ const PLACES_DUMMY_DATA = const [
   Places(
       id: 'A3',
       name: "Pantai Wedi Ombo",
-      category: 'P1',
+      category: 'P2',
       des:
           "Cillum ullamco quis laborum veniam enim laborum proident in sunt sint sunt exercitation quis.",
       image:
@@ -74,10 +73,11 @@ const PLACES_DUMMY_DATA = const [
   Places(
       id: 'A4',
       name: "Pantai Parangteritis",
-      category: 'P1',
+      category: 'P3',
       des:
           "Cillum ullamco quis laborum veniam enim laborum proident in sunt sint sunt exercitation quis.",
-      image: 'https://ammatoa.com/wp-content/uploads/2016/09/kajang.jpg',
+      image:
+          'https://www.panentour.com/wp-content/uploads/2019/03/3D-TORAJA-MAKASSAR-PARE-PARE-2-1024x578.jpg',
       author: "Nuge",
       price: 24000),
 ];

@@ -1,4 +1,5 @@
 import 'package:design/screens/navbar_screens/navHome.dart';
+import 'package:design/screens/navbar_screens/thirdPage.dart';
 import 'package:design/screens/places/places_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
               title: TextStyle(fontSize: 15.0, fontWeight: FontWeight.bold),
               subhead: TextStyle(fontWeight: FontWeight.bold))),
       routes: {
-        '/': (ctx) => NavBottomScreen(),
+        '/': (ctx) => ThirdPage(),
         '/places': (ctx) => PlacesScreen()
       },
     );
